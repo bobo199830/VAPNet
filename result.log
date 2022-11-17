@@ -1,0 +1,11 @@
+UCF101 with clip_num=1: Unseen top-1 acc: 51.1
+UCF101 with clip_num=1: Unseen top-5 acc: 77.8
+
+UCF101 with clip_num=25: Unseen top-1 acc: 55.2
+UCF101 with clip_num=25: Unseen top-5 acc: 81.8
+
+HMDB51 with clip_num=1: Unseen top-1 acc: 30.3
+HMDB51 with clip_num=1: Unseen top-5 acc: 58.8
+
+HMDB51 with clip_num=25: Unseen top-1 acc: 35.3
+HMDB51 with clip_num=25: Unseen top-5 acc: 64.8
