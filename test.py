@@ -99,7 +99,7 @@ with torch.no_grad():
         fi += len(label)
 predicted_embed = predicted_embed[:fi]
 true_label = true_label[:fi]
-accuracy, accuracy_top5 = compute_accuracy(predicted_embed, true_cal_class_embedding, true_label, 'Protocol2')
+accuracy, accuracy_top5 = compute_accuracy(predicted_embed, true_cal_class_embedding, true_label, 'Protocol1')
 print(opt.dataset+" with clip_num="+str(opt.clip_num)+": Unseen top-1 acc:", '%.1f'%accuracy)
 print(opt.dataset+" with clip_num="+str(opt.clip_num)+": Unseen top-5 acc:", '%.1f'%accuracy_top5)
 
