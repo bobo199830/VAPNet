@@ -63,6 +63,9 @@ def compute_accuracy(predicted_embed, true_cal_class_embedding, true_label, writ
 
 model = VAPNet(opt)
 model.cuda()
+# import ipdb; ipdb.set_trace()
+# total = sum(p.numel() for p in model.parameters())
+# print("Total params: %.2fM" % (total / 1e6))
 model = nn.DataParallel(model)
 model.load_state_dict(torch.load(opt.checkpoint))
 
