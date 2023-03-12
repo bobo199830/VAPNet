@@ -12,7 +12,7 @@ conda env create -f environment.yaml
 
 Please download related datasets: [UCF101](https://www.crcv.ucf.edu/data/UCF101.php), [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
 
-For Video Caption model, please refer to [PDVC](https://github.com/ttengwang/PDVC). It is worth noting that we retrain the visual backbone and caption model with no overlap classes between UCF101 and HMDB51.
+For Video Caption model, please refer to [PDVC](https://github.com/ttengwang/PDVC). It is worth noting that we retrain the caption model with no overlap classes between UCF101 and HMDB51.
 
 For convience of reproduction, we provide pre-extracted features of video from R(2+1)D, category name/related descriptions/captions from SBERT.
 
