@@ -14,7 +14,7 @@ Please download related datasets: [UCF101](https://www.crcv.ucf.edu/data/UCF101.
 
 For Video Caption model, please refer to [PDVC](https://github.com/ttengwang/PDVC). It is worth noting that we retrain the caption model with no overlap classes between UCF101 and HMDB51.
 
-For convience of reproduction, we provide pre-extracted features of video from R(2+1)D, category name/related descriptions/captions from SBERT.
+For convience of reproduction, we provide pre-extracted features of video from R(2+1)D (which is trained from scratch on Kinetics662), category name/related descriptions/captions from SBERT.
 
 Data folder structure:
 
